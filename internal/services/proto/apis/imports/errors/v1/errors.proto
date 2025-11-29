@@ -1,0 +1,30 @@
+syntax = "proto3";
+
+package errors;
+
+option go_package = "git.ramooz.org/ramooz/pb/apis-gen/imports/errors/v1;errors";
+
+
+message GetErrorsRequest {
+  enum ResultType {
+    GRPC = 0;
+    JSON = 1;
+  }
+  ResultType resultType = 1;
+}
+
+message GetErrorsResponse {
+  oneof errors{
+      GrpcErrors grpc= 1;
+      string json= 2;
+  }
+}
+
+message GrpcErrors {
+  repeated GrpcError errors = 1;
+}
+
+message GrpcError {
+  string language = 1;
+  map<int64, string> errorMessage = 2;
+}

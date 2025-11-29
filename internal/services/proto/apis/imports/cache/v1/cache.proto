@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+package imports.cache.v1;
+option go_package = "git.ramooz.org/ramooz/pb/apis-gen/imports/cache/v1;cache";
+
+enum CacheKey{
+  CK_Unspecified=0;
+  CK_HeaderAuthorize=1;
+}

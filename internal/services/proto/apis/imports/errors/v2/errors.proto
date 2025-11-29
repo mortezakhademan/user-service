@@ -1,0 +1,18 @@
+syntax = "proto3";
+
+
+package imports.errors.v2;
+
+option go_package = "git.ramooz.org/ramooz/pb/apis-gen/imports/errors/v2;errors";
+
+message TraceDetail{
+  repeated string lines=1;
+}
+message GetErrorsRequest {
+  string language_code = 1;
+}
+
+message GetErrorsResponse {
+  string language = 1;
+  map<int64, string> error_message = 2;
+}

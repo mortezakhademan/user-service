@@ -1,0 +1,24 @@
+syntax = "proto3";
+
+package imports.list;
+
+option go_package = "git.ramooz.org/ramooz/pb/apis-gen/imports/list;list";
+
+
+message PaginatedListRequest{
+  map<string, string> filters = 1;
+  string sort = 2;
+  int32 page = 3;
+  int32 page_size = 4;
+  int32 result_type= 5;
+}
+
+message PaginatedListResponse {
+  int32 page = 1;
+  int64 total_items_count = 2;
+  string sort = 3;
+  map<string, string> filters = 4;
+  bytes file_data = 5;
+  int32 result_type = 6;
+  int32 page_size = 7;
+}

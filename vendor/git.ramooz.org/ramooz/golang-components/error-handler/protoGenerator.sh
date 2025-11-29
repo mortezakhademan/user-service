@@ -1,0 +1,1 @@
+protoc --proto_path=proto --proto_path=proto --go-grpc_out=protoModel --go_out=protoModel proto/errors.proto

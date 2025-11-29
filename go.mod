@@ -1,0 +1,79 @@
+module github.com/mortezakhademan/user-service-sample
+
+go 1.24
+
+require (
+	git.ramooz.org/ramooz/golang-components/logger v0.1.8
+	git.ramooz.org/ramooz/golang-components/microservice v1.3.10
+	git.ramooz.org/ramooz/golang-components/paginated-list v1.3.6
+	git.ramooz.org/ramooz/pb/apis-gen v1.14.2
+	github.com/Ja7ad/swaggerui v1.1.0
+	github.com/envoyproxy/protoc-gen-validate v1.2.1
+	github.com/grpc-ecosystem/grpc-gateway/v2 v2.27.3
+	go.mongodb.org/mongo-driver/v2 v2.4.0
+	google.golang.org/api v0.256.0
+	google.golang.org/genproto/googleapis/api v0.0.0-20251124214823-79d6a2a48846
+	google.golang.org/grpc v1.77.0
+	google.golang.org/protobuf v1.36.10
+)
+
+require (
+	cloud.google.com/go/auth v0.17.0 // indirect
+	cloud.google.com/go/auth/oauth2adapt v0.2.8 // indirect
+	cloud.google.com/go/compute/metadata v0.9.0 // indirect
+	git.ramooz.org/ramooz/golang-components/acl v1.4.3 // indirect
+	git.ramooz.org/ramooz/golang-components/error-handler v1.2.7 // indirect
+	git.ramooz.org/ramooz/golang-components/event-driven v0.1.3 // indirect
+	git.ramooz.org/ramooz/golang-components/jwt v1.3.1 // indirect
+	github.com/TheZeroSlave/zapsentry v1.11.0 // indirect
+	github.com/dgrijalva/jwt-go v3.2.0+incompatible // indirect
+	github.com/felixge/httpsnoop v1.0.4 // indirect
+	github.com/getsentry/sentry-go v0.13.0 // indirect
+	github.com/go-logr/logr v1.4.3 // indirect
+	github.com/go-logr/stdr v1.2.2 // indirect
+	github.com/golang/protobuf v1.5.4 // indirect
+	github.com/golang/snappy v1.0.0 // indirect
+	github.com/google/s2a-go v0.1.9 // indirect
+	github.com/google/uuid v1.6.0 // indirect
+	github.com/googleapis/enterprise-certificate-proxy v0.3.7 // indirect
+	github.com/googleapis/gax-go/v2 v2.15.0 // indirect
+	github.com/grpc-ecosystem/go-grpc-middleware v1.3.0 // indirect
+	github.com/guregu/null v4.0.0+incompatible // indirect
+	github.com/jhump/protoreflect v1.12.0 // indirect
+	github.com/joho/godotenv v1.4.0 // indirect
+	github.com/klauspost/compress v1.16.7 // indirect
+	github.com/mattn/go-colorable v0.1.13 // indirect
+	github.com/mattn/go-isatty v0.0.16 // indirect
+	github.com/mohae/deepcopy v0.0.0-20170929034955-c48cc78d4826 // indirect
+	github.com/patrickmn/go-cache v2.1.0+incompatible // indirect
+	github.com/pkg/errors v0.9.1 // indirect
+	github.com/richardlehane/mscfb v1.0.4 // indirect
+	github.com/richardlehane/msoleps v1.0.4 // indirect
+	github.com/streadway/amqp v1.0.0 // indirect
+	github.com/xdg-go/pbkdf2 v1.0.0 // indirect
+	github.com/xdg-go/scram v1.1.2 // indirect
+	github.com/xdg-go/stringprep v1.0.4 // indirect
+	github.com/xuri/efp v0.0.0-20240408161823-9ad904a10d6d // indirect
+	github.com/xuri/excelize/v2 v2.9.0 // indirect
+	github.com/xuri/nfp v0.0.0-20240318013403-ab9948c2c4a7 // indirect
+	github.com/yaa110/go-persian-calendar v0.6.1 // indirect
+	github.com/youmark/pkcs8 v0.0.0-20240726163527-a2c0da244d78 // indirect
+	go.mongodb.org/mongo-driver v1.10.3 // indirect
+	go.opentelemetry.io/auto/sdk v1.2.1 // indirect
+	go.opentelemetry.io/contrib/instrumentation/net/http/otelhttp v0.61.0 // indirect
+	go.opentelemetry.io/otel v1.38.0 // indirect
+	go.opentelemetry.io/otel/metric v1.38.0 // indirect
+	go.opentelemetry.io/otel/trace v1.38.0 // indirect
+	go.uber.org/atomic v1.10.0 // indirect
+	go.uber.org/multierr v1.8.0 // indirect
+	go.uber.org/zap v1.22.0 // indirect
+	golang.org/x/crypto v0.43.0 // indirect
+	golang.org/x/net v0.46.1-0.20251013234738-63d1a5100f82 // indirect
+	golang.org/x/oauth2 v0.33.0 // indirect
+	golang.org/x/sync v0.18.0 // indirect
+	golang.org/x/sys v0.37.0 // indirect
+	golang.org/x/text v0.30.0 // indirect
+	google.golang.org/genproto v0.0.0-20250603155806-513f23925822 // indirect
+	google.golang.org/genproto/googleapis/rpc v0.0.0-20251111163417-95abcf5c77ba // indirect
+	gopkg.in/natefinch/lumberjack.v2 v2.0.0 // indirect
+)
