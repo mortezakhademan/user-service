@@ -1,4 +1,4 @@
-# simple user service
+# user service
 This project was created as sample for creating a user service.
 
 ---
