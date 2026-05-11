@@ -1,5 +1,10 @@
 # user service
-This project was created as sample for creating a user service.
+User Service is an open-source Golang microservice that provides a simple user management API.
+
+The project is built with Protocol Buffers as the main API contract, and the HTTP gateway and Swagger documentation are generated from the proto definitions. It includes CRUD operations for users, MongoDB persistence, filtering, sorting, pagination, Docker support, and local development setup.
+
+I created this project as a reusable backend service sample and as a foundation for building production-style Go microservices with protobuf, gRPC/HTTP gateway, MongoDB, and Docker.
+
 
 ---
 
